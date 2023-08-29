@@ -20,7 +20,7 @@ export const Education = () => {
     },
     {
       id: 2,
-      image: "/dibimbing.png",
+      image: "/dib.png",
       name: "Dibimbing.id",
       position: "Video E-Learning",
       startDate: "Aug 2023",
@@ -30,7 +30,7 @@ export const Education = () => {
     },
     {
       id: 3,
-      image: "/myskill.webp",
+      image: "/myskill.png",
       name: "Myskill.id",
       position: "Video E-Learning",
       startDate: "Aug 2023",
