@@ -4,9 +4,9 @@ Welcome to the Template Portfolio project! This repository serves as a starting 
 
 ## Preview
 
-<img width="300" alt="home" src="https://github.com/Bayusetiawan45/template-portfolio/assets/99315255/21b762f8-67ba-4c21-b126-4a094e873779">
+<img width="300" alt="home" src="https://github.com/dj1samsoe/portfolio-djisamsoe/blob/2df5f3e422fa8579df72609c4e8ec050c74b5a4b/public/home.png">
 
-<img width="300" alt="experience" src="https://github.com/Bayusetiawan45/template-portfolio/assets/99315255/c27282c9-568f-4b26-a057-85b7186526d0">
+<img width="300" alt="experience" src="https://github.com/dj1samsoe/portfolio-djisamsoe/blob/2df5f3e422fa8579df72609c4e8ec050c74b5a4b/public/about.png">
 
 ## Prerequisites
 
