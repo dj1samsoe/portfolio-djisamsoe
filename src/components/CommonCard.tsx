@@ -26,7 +26,7 @@ export const CommonCard = (props: CommonCardProps) => {
       transition={{
         duration: 0.2,
       }}
-      className="flex items-center justify-center w-full md:w-max py-4 px-6 rounded-xl bg-zinc-800"
+      className="flex items-center w-full md:w-max py-4 px-6 rounded-xl bg-zinc-800"
       style={{ width: "350px" }}
     >
       <div className="w-20 h-20 mr-5">
