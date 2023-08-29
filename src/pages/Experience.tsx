@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { IconClockPlay, IconBrandWordpress } from "@tabler/icons-react";
+import { IconClockPlay } from "@tabler/icons-react";
 import { SectionMotion } from "../common/motion/Section";
 import { SectionHeader } from "../components/SectionHeader";
 import { CommonCard } from "../components/CommonCard";

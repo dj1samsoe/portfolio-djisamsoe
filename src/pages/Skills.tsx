@@ -24,7 +24,6 @@ import { SkillCard } from "../components/SkillCard";
 
 export const Skills = () => {
   const { section } = SectionMotion;
-  const sectionDescription = "List of my skills";
   // mockup skills data
   const skills = [
     { label: "React Js", icon: <IconBrandReact /> },

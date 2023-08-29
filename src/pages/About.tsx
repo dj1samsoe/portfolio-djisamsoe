@@ -3,9 +3,6 @@ import {
   IconCodeCircle,
   IconBrandReact,
   IconBrandNextjs,
-  IconBrandVue,
-  IconBrandNuxt,
-  IconBrandSvelte,
   IconBrandTailwind,
   IconBrandBootstrap,
   IconBrandHtml5,
@@ -16,7 +13,6 @@ import {
   IconBrandFigma,
   IconBrandFramer,
   IconBrandJavascript,
-  IconBrandFramerMotion,
 } from "@tabler/icons-react";
 import { motion } from "framer-motion";
 import { SectionHeader } from "../components/SectionHeader";
