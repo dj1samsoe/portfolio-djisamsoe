@@ -1,6 +1,6 @@
-# Template Portfolio - Vite + React + Tailwind CSS + Yarn + TypeScript + Framer Motion
+# Portfolio Website Using Vite + React + Tailwind CSS + Yarn + TypeScript + Framer Motion
 
-Welcome to the Template Portfolio project! This repository serves as a starting point for creating your own portfolio website using a modern web development stack. By cloning this repository and following the instructions below, you can easily set up your portfolio website with Vite, React, Tailwind CSS, Yarn, TypeScript, and Framer Motion.
+Welcome to the My Portfolio project! This repository serves as a starting point for creating your own portfolio website using a modern web development stack. By cloning this repository and following the instructions below, you can easily set up your portfolio website with Vite, React, Tailwind CSS, Yarn, TypeScript, and Framer Motion.
 
 ## Preview
 
