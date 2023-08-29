@@ -17,7 +17,7 @@ export const Drawer = ({ onClick, links }: DrawerProps) => {
       initial={container.initial}
       animate={container.animated}
       transition={container.transition}
-      className="bg-zinc-800 p-4 fixed top-0 left-0 right-0 border-b border-sky-400 rounded-b-xl"
+      className="bg-zinc-800 p-4 fixed top-0 left-0 right-0 border-b border-zinc-500 rounded-b-xl"
     >
       <div
         onClick={onClick}
