@@ -22,8 +22,7 @@ export const Portfolio = () => {
       name: "Project Portfolio",
       image: "/home.png",
       link: "https://portfolio-djisamsoe.vercel.app/",
-      description:
-        "Portfolio Website Using Vite + React Js + Tailwind CSS + TypeScript",
+      description: "My First  Portfolio Website",
       icon1: <IconBrandVite />,
       label1: "Vite",
       icon2: <IconBrandReact />,
