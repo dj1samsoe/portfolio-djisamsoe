@@ -45,21 +45,20 @@ export const ProjectCard = (props: ProjectCardProps) => {
         transition={{
           duration: 0.2,
         }}
-        className="flex flex-col items-center max-w-full md:max-w-lg overflow-hidden rounded-lg bg-zinc-800"
-        style={{ height: "400px" }}
+        className="rounded-xl shadow-sm relative bg-zinc-800 cursor-pointer"
       >
         <img
           src={image}
           alt={name}
-          className="object-cover w-full"
+          className="object-cover w-full h-max"
           style={{ height: "200px" }}
         />
-        <div className="flex flex-col justify-start pt-10 text-gray-400 text-sm">
+        <div className="flex flex-col w-full px-4 py-3 justify-start pt-5 text-gray-400 text-sm">
           <h2 className="text-lg font-bold text-white">{name}</h2>
           <p className="text-gray-400 text-sm mb-5">{description}</p>
-          <div className="flex flex-wrap items-center gap-3 pt-10">
+          <div className="flex flex-wrap items-center gap-3">
             <div className="w-6">
-              <div className="group relative cursor-pointer py-2">
+              <div className="group relative pb-2">
                 <div className="absolute invisible bottom-7 group-hover:visible px-4 py-2 text-center bg-white text-black mb-2 text-sm rounded-md">
                   <p className=" text-gray-700">{label1}</p>
                 </div>
@@ -67,7 +66,7 @@ export const ProjectCard = (props: ProjectCardProps) => {
               </div>
             </div>
             <div className="w-6">
-              <div className="group relative cursor-pointer py-2">
+              <div className="group relative pb-2">
                 <div className="absolute invisible bottom-7 group-hover:visible px-4 py-2 text-center bg-white text-black mb-2 text-sm rounded-md">
                   <p className=" text-gray-700">{label2}</p>
                 </div>
@@ -75,7 +74,7 @@ export const ProjectCard = (props: ProjectCardProps) => {
               </div>
             </div>
             <div className="w-6">
-              <div className="group relative cursor-pointer py-2">
+              <div className="group relative pb-2">
                 <div className="absolute invisible bottom-7 group-hover:visible px-4 py-2 text-center bg-white text-black mb-2 text-sm rounded-md">
                   <p className=" text-gray-700">{label3}</p>
                 </div>
@@ -83,7 +82,7 @@ export const ProjectCard = (props: ProjectCardProps) => {
               </div>
             </div>
             <div className="w-6">
-              <div className="group relative cursor-pointer">
+              <div className="group relative pb-2">
                 <div className="absolute invisible bottom-7 group-hover:visible px-4 py-2 text-center bg-white text-black mb-2 text-sm rounded-md">
                   <p className="leading-1 text-gray-700">{label4}</p>
                 </div>

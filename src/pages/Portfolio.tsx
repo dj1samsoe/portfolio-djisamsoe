@@ -22,7 +22,8 @@ export const Portfolio = () => {
       name: "Project Portfolio",
       image: "/home.png",
       link: "https://portfolio-djisamsoe.vercel.app/",
-      description: "My First  Portfolio Website",
+      description:
+        "Portfolio Website Using Vite + React Js + Tailwind CSS + Yarn + TypeScript + Framer Motion",
       icon1: <IconBrandVite />,
       label1: "Vite",
       icon2: <IconBrandReact />,
@@ -50,7 +51,8 @@ export const Portfolio = () => {
       name: "Slicing Website From Youtube",
       image: "/kopi.png",
       link: "https://dj1samsoe.github.io/kedai-kopi-djimat/",
-      description: "Slicing Website from YouTube Web Programming Unpas",
+      description:
+        "Slicing Website from YouTube Web Programming Unpas (HTML, CSS, JS)",
       icon1: <IconBrandHtml5 />,
       label1: "HTML",
       icon2: <IconBrandCss3 />,
@@ -76,8 +78,7 @@ export const Portfolio = () => {
       name: "Simple Todo List Apps Using React",
       image: "/todo-list.png",
       link: "https://todo-list-app-djisamsoe.vercel.app/",
-      description:
-        "Create Simple Todo List Apps Using React Js and Tailwind CSS",
+      description: "Create Simple Todo List Apps Using React Js + Tailwind CSS",
       icon1: <IconBrandReact />,
       label1: "React.Js",
       icon2: <IconBrandTailwind />,
