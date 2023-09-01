@@ -1,4 +1,4 @@
-import { IconBat, IconMenu2 } from "@tabler/icons-react";
+import { IconBatteryAutomotive, IconMenu2 } from "@tabler/icons-react";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -28,7 +28,7 @@ export const Header = () => {
           transition={{ delay: 0.1 }}
           className="flex items-center space-x-2 font-bold text-md md:text-3xl text-sky-500"
         >
-          <IconBat width={35} height={35} />
+          <IconBatteryAutomotive width={35} height={35} />
           <span>Dhany Hidayat</span>
         </motion.div>
       </Link>

@@ -26,10 +26,10 @@ export const CommonCard = (props: CommonCardProps) => {
       transition={{
         duration: 0.2,
       }}
-      className="flex items-center w-full md:w-max py-4 px-4 rounded-xl bg-zinc-800"
-      style={{ width: "350px" }}
+      className="flex items-center justify-start w-full px-4 py-2 md:w-max py-4 px-4 rounded-xl bg-zinc-800"
+      style={{ width: "350px", height: "150px" }}
     >
-      <div className="w-20 h-20 mr-5">
+      <div className="mr-5" style={{ maxWidth: "70px", maxHeight: "70px" }}>
         <img src={image} alt={name} width="100%" height="100%" />
       </div>
       <div className="flex flex-col text-gray-400 text-sm my-1">

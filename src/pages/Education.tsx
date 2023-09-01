@@ -20,6 +20,26 @@ export const Education = () => {
     },
     {
       id: 2,
+      image: "/dicoding.webp",
+      name: "Dicoding Indonesia",
+      position: "Dicoding For University Batch 1",
+      startDate: "Aug 2023",
+      endDate: "Nov 2023",
+      duration: "4 Month",
+      location: "Bandung",
+    },
+    {
+      id: 3,
+      image: "/revou-logo.png",
+      name: "RevoU",
+      position: "Fundamental Course Software Engineering",
+      startDate: "21 Aug 2023",
+      endDate: "1 Sep 2023",
+      duration: "2 Weeks",
+      location: "Jakarta",
+    },
+    {
+      id: 4,
       image: "/dib.png",
       name: "Dibimbing.id",
       position: "Video E-Learning",
@@ -29,7 +49,7 @@ export const Education = () => {
       location: "Jakarta",
     },
     {
-      id: 3,
+      id: 5,
       image: "/myskill.png",
       name: "Myskill.id",
       position: "Video E-Learning",
@@ -37,16 +57,6 @@ export const Education = () => {
       endDate: "Aug 2024",
       duration: "1 Year",
       location: "Jakarta",
-    },
-    {
-      id: 4,
-      image: "/dicoding.webp",
-      name: "Dicoding Indonesia",
-      position: "Dicoding For University Batch 1",
-      startDate: "Aug 2023",
-      endDate: "Nov 2023",
-      duration: "4 Month",
-      location: "Bandung",
     },
   ];
   return (
@@ -57,7 +67,7 @@ export const Education = () => {
       className="space-y-6"
     >
       <SectionHeader icon={<IconBallpen />} label="Latest Educations" />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="flex flex-wrap justify-center gap-5">
         {educations.map((education) => (
           <CommonCard key={education.id} {...education} />
         ))}
