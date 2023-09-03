@@ -38,7 +38,7 @@ export const MediaBar = () => {
         <Link
           to={item.link}
           key={item.link}
-          className="text-sky-500 hover:text-white"
+          className="bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text hover:text-white"
           aria-label={item.link}
           target="_blank"
         >

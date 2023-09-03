@@ -21,7 +21,7 @@ export const ContactCard = (props: ContactCardProps) => {
         <Link
           to={link}
           target="_blank"
-          className="text-sky-600 hover:text-white hover:bg-sky-600 rounded-md px-2 py-1"
+          className="text-sky-600 hover:text-white hover:bg-gradient-to-r from-fuchsia-500 to-cyan-500 rounded-md px-2 py-1"
         >
           Send Message
         </Link>

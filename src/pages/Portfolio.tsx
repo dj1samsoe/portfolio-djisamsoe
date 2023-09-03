@@ -113,7 +113,7 @@ export const Portfolio = () => {
       className="space-y-6"
     >
       <SectionHeader icon={<IconBrandCodepen />} label="Latest Projects" />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="flex flex-wrap px-5 gap-5">
         {portfolios.map((portfolio) => (
           <ProjectCard
             icon4={undefined}

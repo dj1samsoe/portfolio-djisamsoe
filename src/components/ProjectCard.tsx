@@ -45,12 +45,12 @@ export const ProjectCard = (props: ProjectCardProps) => {
         transition={{
           duration: 0.2,
         }}
-        className="rounded-xl shadow-sm relative bg-zinc-800 cursor-pointer"
+        className="lg:w-[400px] h-[400px] md:w-[200px] rounded-xl shadow-sm relative bg-zinc-800"
       >
         <img
           src={image}
           alt={name}
-          className="object-cover w-full h-max"
+          className="object-cover w-full h-max rounded-xl"
           style={{ height: "200px" }}
         />
         <div className="flex flex-col w-full px-4 py-3 justify-start pt-5 text-gray-400 text-sm">

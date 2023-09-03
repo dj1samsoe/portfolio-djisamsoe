@@ -49,7 +49,7 @@ const DynamicText: React.FC = () => {
 
   return (
     <motion.h2
-      className="text-sky-500 font-bold text-2xl md:text-3xl"
+      className="bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent font-bold text-2xl md:text-3xl"
       variants={textVariants}
       initial="initial"
       animate="animate"

@@ -12,7 +12,7 @@ export const Home = () => {
         initial={wrapImg.initial}
         animate={wrapImg.animated}
         transition={wrapImg.transition}
-        className="flex flex-1 items-center justify-center bg-gradient-to-bl from-sky-500 via-sky-900 to-black overflow-hidden"
+        className="flex flex-1 items-center justify-center bg-gradient-to-bl from-fuchsia-500 via-sky-900 to-black overflow-hidden"
       >
         <motion.img
           initial={image.initial}
@@ -48,9 +48,10 @@ export const Home = () => {
             initial={resume.initial}
             animate={resume.animated}
             transition={resume.transition}
-            className="rounded-3xl w-max border px-4 py-2 border-sky-500 text-sky-500 hover:bg-sky-500 hover:text-black hover:border-sky-500"
           >
-            About Me
+            <button className="border-sky-600 rounded-xl bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent">
+              About Me
+            </button>
           </motion.div>
         </Link>
       </motion.div>

@@ -26,10 +26,12 @@ export const Header = () => {
           initial={{ y: -100 }}
           animate={{ y: 0 }}
           transition={{ delay: 0.1 }}
-          className="flex items-center space-x-2 font-bold text-md md:text-3xl text-sky-500"
+          className="flex items-center space-x-2 font-bold text-md md:text-3xl text-fuchsia-500"
         >
           <IconBatteryAutomotive width={35} height={35} />
-          <span>Dhany Hidayat</span>
+          <span className="bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent">
+            Dhany Hidayat
+          </span>
         </motion.div>
       </Link>
       <motion.nav
@@ -42,7 +44,7 @@ export const Header = () => {
           <Link
             key={item.path}
             to={item.path}
-            className="text-white font-bold hover:text-sky-400"
+            className="text-white font-bold hover:bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text"
           >
             {item.name}
           </Link>
