@@ -4,7 +4,7 @@ import { Header } from "./components/Header";
 import { About } from "./pages/About";
 import { Experience } from "./pages/Experience";
 import { Education } from "./pages/Education";
-import { Portfolio } from "./pages/Portfolio";
+import { Project } from "./pages/Project";
 import { Contact } from "./pages/Contact";
 // import { MediaBar } from "./components/MediaBar";
 import { Footer } from "./components/Footer";
@@ -22,7 +22,7 @@ function App() {
           {/* <Route path="/skills" element={<Skills />} /> */}
           <Route path="/experience" element={<Experience />} />
           <Route path="/education" element={<Education />} />
-          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/project" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -15,9 +15,9 @@ import { SectionMotion } from "../common/motion/Section";
 import { SectionHeader } from "../components/SectionHeader";
 import { ProjectCard } from "../components/ProjectCard";
 
-export const Portfolio = () => {
+export const Project = () => {
   const { section } = SectionMotion;
-  const portfolios = [
+  const projects = [
     {
       id: 1,
       name: "Project Portfolio",
@@ -114,12 +114,12 @@ export const Portfolio = () => {
     >
       <SectionHeader icon={<IconBrandCodepen />} label="Latest Projects" />
       <div className="flex flex-wrap px-5 gap-5">
-        {portfolios.map((portfolio) => (
+        {projects.map((project) => (
           <ProjectCard
             icon4={undefined}
             label4={""}
-            key={portfolio.id}
-            {...portfolio}
+            key={project.id}
+            {...project}
           />
         ))}
       </div>
