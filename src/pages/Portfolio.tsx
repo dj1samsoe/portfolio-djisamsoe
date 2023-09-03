@@ -9,6 +9,7 @@ import {
   IconBrandTailwind,
   IconBrandRedux,
   IconBrandVite,
+  IconBrandFirebase,
 } from "@tabler/icons-react";
 import { SectionMotion } from "../common/motion/Section";
 import { SectionHeader } from "../components/SectionHeader";
@@ -48,17 +49,19 @@ export const Portfolio = () => {
     },
     {
       id: 3,
-      name: "Slicing Website From Youtube",
-      image: "/kopi.png",
-      link: "https://dj1samsoe.github.io/kedai-kopi-djimat/",
+      name: "Djisamsoe Movies Apps",
+      image: "/movies.png",
+      link: "https://djisamsoe-movies.vercel.app/",
       description:
-        "Slicing Website from YouTube Web Programming Unpas (HTML, CSS, JS)",
-      icon1: <IconBrandHtml5 />,
-      label1: "HTML",
-      icon2: <IconBrandCss3 />,
-      label2: "CSS",
-      icon3: <IconBrandJavascript />,
-      label3: "JavaScript",
+        "Movie Streaming Apps Using Vite + React JS + Firebase + TMDB API + Tailwind CSS + Framer Motion",
+      icon1: <IconBrandVite />,
+      label1: "Vite",
+      icon2: <IconBrandReact />,
+      label2: "React.Js",
+      icon3: <IconBrandFirebase />,
+      label3: "Firebase",
+      icon4: <IconBrandTailwind />,
+      label4: "TailwindCSS",
     },
     {
       id: 4,
